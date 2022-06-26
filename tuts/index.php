@@ -1,3 +1,9 @@
+<?php
+
+$name= 'James';
+$name2='jose'
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +14,16 @@
 </head>
 <body>
 
-<h1><?php echo "Hello World!"; ?></h1>
+<?php
+
+  $array_1 = ['Jose', 'Stefanie', 'James', 'Sadie'];
+  ?>
+
+  <?php
+  foreach($array_1 as $name) { ?>
+    <h1><?php echo $name ?></h1>
+  <?php } ?>
+
 
 </body>
 </html>
