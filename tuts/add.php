@@ -1,7 +1,9 @@
 <?php
 
 if (isset($_POST['submit'])) {
-  print_r($_POST);
+  if(empty($_POST['email'])) {
+    echo 'What the fuck bro --- enter an email';
+  }
 }
 
 ?>
