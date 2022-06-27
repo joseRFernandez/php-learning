@@ -10,6 +10,11 @@
    .brand-text {
      color: #cbb09c !important;
    }
+   form {
+     padding: 1.25rem;
+     max-width: 450px;
+     margin: 20px auto;
+   }
    </style>
 </head>
 
